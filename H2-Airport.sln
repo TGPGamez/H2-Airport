@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H2-Airport", "ConsoleApp1\H2-Airport.csproj", "{BF9A25A1-9212-42F0-A882-9FFC74E8C4FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H2-Airport", "Airport\H2-Airport.csproj", "{BF9A25A1-9212-42F0-A882-9FFC74E8C4FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

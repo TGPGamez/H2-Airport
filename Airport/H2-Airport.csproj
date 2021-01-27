@@ -80,22 +80,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Database Stuff\CPH Lufthavn.png" />
-    <EntityDeploy Include="AirportModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>AirportModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Database Stuff\Airport SQL CODE.sql" />
-    <None Include="AirportModel.edmx.diagram">
-      <DependentUpon>AirportModel.edmx</DependentUpon>
-    </None>
-    <None Include="App.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="AirportModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>AirportModel.edmx</DependentUpon>
@@ -106,6 +90,20 @@
       <DependentUpon>AirportModel.edmx</DependentUpon>
       <LastGenOutput>AirportModel.cs</LastGenOutput>
     </Content>
+    <Content Include="Database Stuff\Airport SQL CODE.sql" />
+    <Content Include="Database Stuff\CPH Lufthavn.png" />
+    <EntityDeploy Include="AirportModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>AirportModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="AirportModel.edmx.diagram">
+      <DependentUpon>AirportModel.edmx</DependentUpon>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
